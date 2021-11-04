@@ -1,0 +1,9 @@
+{
+  "name": "EXPRESS BOILERPLATE API",
+  "version": "0.0.1",
+  "description": "EXPRESS BOILERPLATE API documentation",
+  "header": {
+    "title": "Readme",
+    "filename": "APIDOC.md"
+  }
+}

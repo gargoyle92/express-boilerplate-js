@@ -1,0 +1,10 @@
+{
+  "singleQuote": true,
+  "semi": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "javascriptEnable": ["javascript", "json"],
+  "trailingComma": "all",
+  "printWidth": 200,
+  "bracketSpacing": true
+}
