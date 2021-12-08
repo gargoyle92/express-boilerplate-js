@@ -24,7 +24,7 @@ export const AuthenticationCreateModel = {
   permission: { allowNull: false, inIn: PERMISSION_TYPE },
   scope: { allowNull: false },
   refreshToken: { allowNull: false },
-  expireAt: { allowNull: false },
+  refreshTokenExpireAt: { allowNull: false },
   session: { isBoolean: true },
   conferenceId: { isInt: true, notEmpty: true },
 };
@@ -36,7 +36,7 @@ export const AdminCreateModel = {
   countryCode: { isInt: true, allowNull: false },
   mobile: { notEmpty: true },
   platform: { allowNull: false, isIn: PLATFORM_TYPE },
-  isEnabled: { isBoolean: true },
+  isEnable: { isBoolean: true },
   ip: { allowNull: false },
 };
 
@@ -54,7 +54,7 @@ export const UserCreateModel = {
   isReceiveEmail: { isBoolean: true, allowNull: false },
   isReceiveSms: { isBoolean: true, allowNull: false },
   isPrivacyInformation: { isBoolean: true, allowNull: false },
-  isEnabled: { isBoolean: true, allowNull: false },
+  isEnable: { isBoolean: true, allowNull: false },
   platform: { allowNull: false },
   ip: { allowNull: false },
 };

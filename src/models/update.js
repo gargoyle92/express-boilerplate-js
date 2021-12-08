@@ -39,7 +39,7 @@ export const AdminUpdateModel = {
   countryCode: { isInt: true, allowNull: false },
   mobile: { allowNull: false },
   platform: { allowNull: false, isIn: PLATFORM_TYPE },
-  isEnabled: { isBoolean: true },
+  isEnable: { isBoolean: true },
   ip: { allowNull: false },
 };
 
@@ -57,7 +57,7 @@ export const UserUpdateModel = {
   isReceiveEmail: { isBoolean: true },
   isReceiveSms: { isBoolean: true },
   isPrivacyInformation: { isBoolean: true },
-  isEnabled: { isBoolean: true },
+  isEnable: { isBoolean: true },
   platform: { allowNull: false },
   ip: { allowNull: false },
 };

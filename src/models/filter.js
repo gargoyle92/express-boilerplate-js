@@ -24,7 +24,7 @@ export const UserFilterModel = {
   mobile: { allowNull: false },
   email: { isEmail: true, allowNull: false },
   platform: { isInt: true, isIn: PLATFORM_TYPE, allowNull: false },
-  isEnabled: { isBoolean: true, allowNull: false },
+  isEnable: { isBoolean: true, allowNull: false },
   keyword: { allowNull: false },
   conferenceTitle: { allowNull: false },
 };

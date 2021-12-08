@@ -9,7 +9,7 @@ export const UserOrderModel = {
     userId: ORDER.USER.USER_ID,
     name: ORDER.USER.NAME,
     platform: ORDER.USER.PLATFORM,
-    isEnabled: ORDER.USER.IS_ENABLED,
+    isEnable: ORDER.USER.IS_ENABLED,
     createdAt: ORDER.USER.CREATED_AT,
   },
 
